@@ -1,0 +1,32 @@
+Definition:
+A Queue is a linear data structure that follows FIFO (First In, First Out) principle.
+
+Example: 
+A line of people at a ticket counter – the person who comes first gets served first.
+
+Basic Operations:
+Enqueue
+Dequeue
+Peek/Front
+isEmpty()
+isFull()
+
+Types of Queues:
+Simple
+Circular
+Double-Ended Queue (Deque)
+Priority Queue
+
+Implementation:
+Using Array
+Using LL
+
+Codes: 
+1. Queue using Array:  Enqueue; Dequeue; Display
+2. Queue using Linked List: Enqueue; Dequeue; Display
+3. Circular Queue using Array
+4. Circular Queue using Linked List
+5. Double Ended Queue (Deque): Input-restricted deque; Output-restricted deque
+6. Priority Queue (using Array or Linked List)
+7. Implementation of Queue using Stacks (important trick question).
+8. Implementation of Stack using Queues (reverse trick).
