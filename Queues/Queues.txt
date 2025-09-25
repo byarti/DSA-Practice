@@ -1,15 +1,24 @@
 Definition:
-A Queue is a linear data structure that follows FIFO (First In, First Out) principle.
+A Queue is a linear data structure that follows 
+FIFO (First In, First Out) principle.
+
+A list or collection with the restriction that insertion can be performed at one end (rear) 
+and deletion can be performed at the other end (front)
 
 Example: 
 A line of people at a ticket counter – the person who comes first gets served first.
 
 Basic Operations:
-Enqueue
-Dequeue
-Peek/Front
+Enqueue(x) : void Enqueue(int x);
+Dequeue() : int Dequeue();
+Peek() or Front()  
 isEmpty()
 isFull()
+ 
+Time Complexity should be O(1).
+
+we have front and rear. 
+In hota hai rear mein and out hota hai front se.
 
 Types of Queues:
 Simple
