@@ -11,7 +11,7 @@ A line of people at a ticket counter – the person who comes first gets served 
 Basic Operations:
 Enqueue(x) : void Enqueue(int x);
 Dequeue() : int Dequeue();
-Peek() or Front()  
+Peek() or Front() : get front element without removing
 isEmpty()
 isFull()
  
@@ -39,3 +39,12 @@ Codes:
 6. Priority Queue (using Array or Linked List)
 7. Implementation of Queue using Stacks (important trick question).
 8. Implementation of Stack using Queues (reverse trick).
+
+
+
+Linear Queue Drawback
+1. Fixed array → after some dequeues, free space at front cannot be reused.
+2. Leads to false full situation.
+3. Solved by circular queue.
+
+
