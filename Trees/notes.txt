@@ -1,0 +1,6 @@
+trees: hierarchial data structure
+full 
+complete
+perfect
+balanced
+degenerate
